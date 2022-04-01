@@ -1,0 +1,13 @@
+name: jb-test
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.9
+  - pip
+  - jupyterlab
+  - jupyter-book
+  - numpy
+  - scipy
+  - matplotlib
+  - verde
